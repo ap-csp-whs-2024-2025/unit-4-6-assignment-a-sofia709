@@ -18,15 +18,30 @@
 
 
 // TODO: Create squareNum
+void sqaureNum(int n)
+{
+    std:: cout << "The square of " << n<< "is" << (n*n) <<std::endl;
 
+}
 // TODO: Create distance
 
 // TODO: Create rollDice
+void rollDice ()
+{
+    int randomNumber = rand () % 6+1;
+
+    std:: cout << "You rolled a"<< randomnumber << std::endl; 
+    
+}
 
 int main()
 {
-    // You can follow along with any code in class here
-
+    //seed the random number generator with the current time
+    srand(time)
+   rollDice();
+   rollDice();
+   rollDice();
+    
     
     return 0;
 }
